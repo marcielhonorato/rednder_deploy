@@ -26,7 +26,7 @@ data_df["Date"] = pd.to_datetime(data_df["Date"])
 
 #data_df.info()
 
-# ===================== Layout ===================== #
+# ===================== Layout ======================== #
 
 app.layout = html.Div(children=[
 
