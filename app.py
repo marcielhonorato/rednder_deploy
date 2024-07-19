@@ -21,7 +21,7 @@ server = app.server
 
 # ================================== Data Clean ==================================
 
-data_df = pd.read_csv('dataset/supermarket_sales.csv', sep=',')
+data_df = pd.read_csv('assets/supermarket_sales.csv', sep=',')
 data_df["Date"] = pd.to_datetime(data_df["Date"])  
 
 #data_df.info()
